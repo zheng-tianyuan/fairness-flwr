@@ -1,0 +1,73 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "Python: Server",
+            "type": "python",
+            "request": "launch",
+            "program": "server.py",
+            "console": "internalConsole"
+        },
+        {
+            "name": "Python: P0",
+            "type": "python",
+            "request": "launch",
+            "program": "client.py",
+            "console": "internalConsole",
+            "args": ["--i", "0", "--gpu", "0"]
+        },
+        {
+            "name": "Python: P1",
+            "type": "python",
+            "request": "launch",
+            "program": "client.py",
+            "console": "internalConsole",
+            "args": ["--i", "1", "--gpu", "0"]
+        },
+        {
+            "name": "Python: P2",
+            "type": "python",
+            "request": "launch",
+            "program": "client.py",
+            "console": "internalConsole",
+            "args": ["--i", "2", "--gpu", "1"]
+        },
+        {
+            "name": "Python: P3",
+            "type": "python",
+            "request": "launch",
+            "program": "client.py",
+            "console": "internalConsole",
+            "args": ["--i", "3", "--gpu", "1"]
+        },
+        {
+            "name": "Python: P4",
+            "type": "python",
+            "request": "launch",
+            "program": "client.py",
+            "console": "internalConsole",
+            "args": ["--i", "4", "--gpu", "2"]
+        },
+        {
+            "name": "Python: P5",
+            "type": "python",
+            "request": "launch",
+            "program": "client.py",
+            "console": "internalConsole",
+            "args": ["--i", "5", "--gpu", "3"]
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Run All",
+            "stopAll": true,
+            "configurations": ["Python: Server", "Python: P0", "Python: P1", 
+                                "Python: P2", "Python: P3",
+                                "Python: P4", "Python: P5"]
+        }
+    ]
+}
