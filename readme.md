@@ -58,7 +58,7 @@ if __name__ == "__main__":
         config=fl.server.ServerConfig(args.num_rounds),
         strategy=strategy
     )
-
+```
 
 - `strategy`: You can inherit from the existing strategy and override some functions to adapt to your algorithm.
 
