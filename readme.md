@@ -27,6 +27,6 @@ This project includes four distinct algorithms:
 - `Local`
 
 Launch:
-chmod 777 shell.sh
-./shell.sh
+- `chmod 777 shell.sh`
+- `./shell.sh`
 
